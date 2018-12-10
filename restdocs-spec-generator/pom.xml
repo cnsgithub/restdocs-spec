@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.github.berkleytechnologyservices.restdocs-spec</groupId>
+    <groupId>com.github.cnsgithub.restdocs-spec</groupId>
     <artifactId>restdocs-spec</artifactId>
-    <version>0.10.2-cns</version>
+    <version>0.10.3-cns</version>
   </parent>
 
   <artifactId>restdocs-spec-generator</artifactId>
