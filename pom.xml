@@ -6,12 +6,12 @@
 
   <groupId>com.github.berkleytechnologyservices.restdocs-spec</groupId>
   <artifactId>restdocs-spec</artifactId>
-  <version>0.10-SNAPSHOT</version>
+  <version>0.10-cns</version>
   <packaging>pom</packaging>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>Restdocs Spec Generation Support</description>
-  <url>https://github.com/BerkleyTechnologyServices/restdocs-spec</url>
+  <url>https://github.com/cnsgithub/restdocs-spec</url>
 
   <licenses>
     <license>
