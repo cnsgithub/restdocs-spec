@@ -4,6 +4,7 @@ info:
   version: 1.0.0
 servers:
 - url: http://localhost
+tags: []
 paths:
   /book/{id}:
     get:
@@ -17,6 +18,8 @@ paths:
         in: path
         description: The unique identifier for the book.
         required: true
+        schema:
+          type: string
       responses:
         200:
           description: "200"

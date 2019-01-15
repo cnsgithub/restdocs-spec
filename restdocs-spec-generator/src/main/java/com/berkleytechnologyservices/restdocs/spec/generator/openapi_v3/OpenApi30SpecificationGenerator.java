@@ -14,9 +14,7 @@ import io.swagger.v3.oas.models.servers.Server;
 import javax.inject.Named;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 @Named
@@ -52,6 +50,8 @@ public class OpenApi30SpecificationGenerator implements SpecificationGenerator {
             models,
             servers,
             details.getName(),
+            details.getDescription(),
+            details.getTagDescriptions(),
             details.getVersion(),
             SpecificationGeneratorUtils.createOauth2Configuration(details.getAuthConfig()),
             details.getFormat().name().toLowerCase()

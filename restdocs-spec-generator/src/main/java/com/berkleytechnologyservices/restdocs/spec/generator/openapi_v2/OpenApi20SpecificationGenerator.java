@@ -11,6 +11,7 @@ import com.epages.restdocs.apispec.model.ResourceModel;
 import com.epages.restdocs.apispec.openapi2.OpenApi20Generator;
 
 import javax.inject.Named;
+import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -40,6 +41,8 @@ public class OpenApi20SpecificationGenerator implements SpecificationGenerator {
         details.getHost(),
         details.getSchemes(),
         details.getName(),
+        details.getDescription(),
+        details.getTagDescriptions(),
         details.getVersion(),
         SpecificationGeneratorUtils.createOauth2Configuration(details.getAuthConfig()),
         details.getFormat().name().toLowerCase()
